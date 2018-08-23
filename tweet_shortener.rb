@@ -40,6 +40,10 @@ def selective_tweet_shortener(given_tweet)
   end
 end
 
+def shortened_tweet_truncator(given_tweet)
+
+given_tweet.length > 140 ? given_tweet[0...140] : given_tweet
+end
 
 
 
