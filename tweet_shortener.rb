@@ -16,5 +16,6 @@ end
 def word_substituter(given_string)
   
   my_dictionary = dictionary
+  string_array = given_string.split(" ")
   
 end
