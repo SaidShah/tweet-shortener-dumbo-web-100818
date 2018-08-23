@@ -16,6 +16,8 @@ end
 def word_substituter(given_string)
   
   my_dictionary = dictionary
-  string_array = given_string.split(" ")
+  my_dictionary.each do |word, sub_word|
+    given_string.gsub(word,sub_word)
+  end
   
 end
