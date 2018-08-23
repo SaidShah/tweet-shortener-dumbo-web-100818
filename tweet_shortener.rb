@@ -17,7 +17,7 @@ def word_substituter(given_string)
   
   my_dictionary = dictionary
   my_dictionary.each do |word, sub_word|
-    given_string.sub(word,sub_word)
+    given_string.sub("Hey","sub_word")
   end
   
 end
