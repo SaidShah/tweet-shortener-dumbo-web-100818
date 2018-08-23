@@ -17,7 +17,7 @@ def word_substituter(given_string)
 
   my_dictionary = dictionary
   my_dictionary.each do |word, sub_word|
-  word_to_sub = "/\bword\b/"
+  word_to_sub = "/\b#{word}\b/"
  given_string.gsub!(word_to_sub,sub_word)
   end
   given_string
