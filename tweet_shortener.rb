@@ -15,6 +15,6 @@ end
 
 def word_substituter(given_string)
   
-  dictionary = dictionary
+  my_dictionary = dictionary
   
 end
