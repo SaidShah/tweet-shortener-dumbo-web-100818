@@ -12,3 +12,9 @@ def dictionary
     "and" => "&"
   }
 end
+
+def word_substituter(given_string)
+  
+  dictionary = dictionary
+  
+end
